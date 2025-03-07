@@ -1,0 +1,19 @@
+[DEFAULT]
+# Configuration for the flight summary script
+# Pilot's name
+Pilot=John Doe
+
+# Purpose of the flight: Training, Testing, or Commercial
+Purpose=Commercial
+
+# Client or project name (only required for Commercial purpose)
+Client=BigProject
+
+# Time threshold (in hours) to separate flights into different output entries
+TimeThreshold=24
+
+# Coordinate threshold (in meters) to determine if flights are from the same project
+CoordinateThreshold=10000
+
+# Time threshold (in seconds) that a flight requires to exceed
+ValidTimeThreshold=60
