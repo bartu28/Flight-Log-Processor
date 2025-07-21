@@ -10,7 +10,7 @@ This repository contains a simple set of Python scripts designed to automate the
 - **Data Extraction & Enrichment**: Extracts crucial flight details such as take-off/landing times, flight duration, aircraft type, pilot, client, and purpose.
 - **Intelligent GPS Handling**: Automatically attempts to infer missing GPS landing locations for flights within a project by utilizing valid GPS data from other closely related flights or a user-defined suggested location.
 - **Configurable Parameters**: Allows customization of project grouping thresholds (time and distance) and default project metadata via a configuration file.
-- **Comprehensive Reporting**: Generates detailed, project-specific CSV log files, while providing a clear overview of all processed flights and projects printed on the console of the script.
+- **Comprehensive Reporting**: Generates detailed, project-specific CSV log files, while providing a clear overview of all processed flights and projects printed on the console of the script. Additionally it uses ne_110m_admin_0_countries from naturalearthdata.com to find the country name of the specified coordinate.
 
 ## Usage
 
